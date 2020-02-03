@@ -1,0 +1,33 @@
+<html>
+<head>
+	<style>
+	body {
+		background-color: FF8D5E;
+	}
+	img {
+		display: block;
+	}
+	</style>
+</head>
+
+<body onload="scrollDown()">
+	<center>
+	<a href="index.html"><img src="go-home.jpg" alt=""></a>
+	<img src="arrow-up.jpg" alt="">
+	<img src="arrow-up.jpg" alt="">
+	<img src="arrow-up.jpg" alt="">
+	<img src="arrow-up.jpg" alt="">
+	<img src="arrow-up.jpg" alt="">
+	<img src="arrow-up.jpg" alt="">
+	<img src="arrow-up.jpg" alt="">
+	<img id="last_image" src="arrow-up.jpg" alt="">
+	</center>
+	
+	<script>
+	function scrollDown() {
+		var elmnt = document.getElementById("last_image");
+		elmnt.scrollIntoView();
+	}
+	</script>
+</body>
+</html>
